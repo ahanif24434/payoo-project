@@ -9,19 +9,22 @@
     <!--Daisy UI link-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 </head>
-<body class="bg-[#f4f5f7]">
-    <form class="border-2 border-red-500 flex justify-center items-center">
-<div>
-    <label for="text">Mobile Number</label><br/>
-   <input type="text" placeholder="enter mobile number" class="input" />
+<body class="bg-[#f4f5f7] h-[100vh] flex flex-col justify-center items-center">
+    <div class="w-[300px] h-[130px] bg-[url('./assets/bg.png')] bg-cover flex justify-center items-center">
+<img src="./assets/Group.png" alt="">
+    </div>
+    <form class=" bg-white w-[350px] rounded-2xl p-6">
+<div class="w-full">
+    <label for="text" class="mt-3 font-semibold">Mobile Number</label>
+   <input type="text" placeholder="enter mobile number" class=" bg-[#f4f5f7] mt-3 rounded-5xl input " id="mobile-number" />
 </div>
 <div>
-    <label for="text">4 digit pin</label><br/>
-    <input type="text" placeholder="4 digit pin" class="input" />
+    <label for="text" class="mt-3 block font-semibold">4 digit pin</label>
+    <input type="text" placeholder="4 digit pin" class="input bg-[#f4f5f7] mt-3 rounded-5xl" id="pin-number"/>
 </div>
-<button class="btn btn-primary">Primary</button>
+<button class="btn btn-primary mt-5 rounded-5xl w-[300px] mx-auto" id="log-in-button">Login</button>
     </form>
    
-  
+  <script src="./script.js"></script>
 </body>
 </html>
