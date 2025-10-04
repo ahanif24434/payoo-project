@@ -35,7 +35,7 @@
 <p class="text-[#08080880] my-[20px]">Enjoy easy and convenient financial services with us. <br/>Cashout charge is low and </p>
    </div>
    <div class="min-h-[200px] grid grid-cols-3 gap-4 p-3"> <!--parent div-->
-    <div id="add-button" class=" form-btn border-2 border-gray-400 p-3 text-center rounded-xl">
+    <div id="add-button" class="form-btn border-2 border-gray-400 p-3 text-center rounded-xl">
     <img src="./assets/wallet1.png" alt="" class="mx-auto">
     <h3 class="mt-2">Add Money</h3>
    </div>
@@ -64,7 +64,7 @@
    <!--form section starts here -->
 <div class=" max-w-lg mx-auto rounded-3xl">
    <!-- add money --> 
-    <div id="add-money-parent" style="display:none;"><!--parent div-->
+    <div id="add-money-parent" style="display:none;" class="form"><!--parent div-->
     <h1 class="font-bold my-5 ml-5">Add Money</h1> 
 <form class="!bg-white rounded-2xl p-6">
    <div>
@@ -92,7 +92,7 @@
 </form>
 </div>
 <!--cash out-->
-<div id="cash-out-parent" style="display:none;" class="rounded-3xl max-w-lg mx-auto">
+<div id="cash-out-parent" style="display:none;" class="form">
   <h1 class="font-bold my-5 ml-5">cash out</h1>
 <form class="bg-white rounded-2xl p-6">
    <div>
@@ -110,9 +110,8 @@
    <button id="withdraw-money-btn" class="btn !bg-[#0874F2] mt-5 !rounded-2xl !text-white w-full p-2">cash out</button>
 </form>
 </div>
-</div>
 <!--Transfer money-->
-<div id="transfer-parent" style="display:none;" class="rounded-3xl max-w-lg mx-auto">
+<div id="transfer-parent" style="display:none;" class="form">
   <h1 class="font-bold my-5 ml-5">Transfer Money</h1>
 <form class="bg-white rounded-2xl p-6">
    <div>
@@ -130,9 +129,8 @@
    <button id="transfer-money-btn" class="btn !bg-[#0874F2] mt-5 !rounded-2xl !text-white w-full p-2">Send Now</button>
 </form>
 </div>
-</div>
 <!--get bonus section-->
-<div id="bonus-parent" class="rounded-3xl max-w-lg mx-auto" style="display:none">
+<div id="bonus-parent" class="form" style="display:none">
   <h1 class="font-bold my-5 ml-5">Get bonus</h1>
 <form class="bg-white rounded-2xl p-6">
    <div>
@@ -142,8 +140,8 @@
    <button id=" " class="btn !bg-[#0874F2] mt-5 !rounded-2xl !text-white w-full p-2">Get bonous</button>
 </form>
 </div>
-<!--Pay bill section-->
-    <div id="pay-bill-parent" class="max-w-lg mx-auto rounded-3xl" style="display:none" ><!--parent div-->
+<!--Pay bill section--> 
+    <div id="pay-bill-parent" class="form" style="display:none" ><!--parent div-->
     <h1 class="font-bold my-5 ml-5">Pay Bill</h1> 
 <form class="!bg-white rounded-2xl p-6">
    <div>
@@ -170,18 +168,19 @@
    <button id="" class="btn !bg-[#0874F2] mt-5 !rounded-2xl !text-white w-full p-2">Pay Now</button>
 </form>
 </div>
-<!-- Transection parents-->
- <div id="transection-parent" class="max-w-lg mx-auto rounded-3xl" style="display:none" ><!--parent div-->
+<!-- Transection parents -->
+  <div id="transection-parent" class="form " style="display:none" >
     <div class="flex justify-between items-center">
-      <h1 class="font-bold my-5 ml-5">Transection</h1> 
-      <p class="text-[#08080880]">View All</p>
+    <h1 class="font-bold my-5 ml-5">Transection</h1> 
+    <p class="text-[#08080880]">View All</p>
+</div>    
     </div>
     <div id="transection-container">
      
     </div>
 <!-- <form class="!bg-white rounded-2xl p-6"> -->
-   <div>
- <script src="./home.js"></script> 
+</div>
+ <script src="./copyhome.js"></script> 
 <!--<script src="./same.js"></script>-->
 </body>
 </html>
